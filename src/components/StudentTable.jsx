@@ -2,7 +2,7 @@ import React from 'react';
 
 const StudentTable = ({ students, editStudent, deleteStudent }) => {
   return (
-    <div className="mt-6 bg-white p-4 rounded-lg shadow-md">
+    <div className=" bg-white p-4 rounded-lg shadow-md">
       <h2 className="text-xl font-bold mb-4">Student List</h2>
       {students.length === 0 ? (
         <p>No students added yet.</p>
